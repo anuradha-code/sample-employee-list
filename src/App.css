@@ -1,0 +1,38 @@
+.main-container {
+  width: 50%;
+  padding: 20px;
+}
+.button-container {
+  width: 50%;
+  padding: 20px 0;
+}
+.filter-container {
+  padding: 20px 0;
+}
+.filter-container input {
+  width: 100px;
+  margin: 0 10px;
+}
+
+.tableSec {
+  border: 1px solid red;
+}
+
+.tableSec {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableSec td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tableSec tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tableSec tr:hover {
+  background-color: #ddd;
+}

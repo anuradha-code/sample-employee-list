@@ -1,0 +1,62 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Signup, Signin, Forgot password, Terms and Conditions and Contact Us boilerplate just the UI ",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddharthaChowdhury/bp-common.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "signup",
+    "signin",
+    "forgot",
+    "passord",
+    "reset",
+    "password",
+    "tnc",
+    "contact",
+    "us"
+  ],
+  "author": "Austin4Silvers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SiddharthaChowdhury/bp-common/issues"
+  },
+  "homepage": "https://github.com/SiddharthaChowdhury/bp-common#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-object-assign": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^25.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.5.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^25.2.7",
+    "raw-loader": "^4.0.0",
+    "regenerator-runtime": "^0.13.5",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
