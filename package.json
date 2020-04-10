@@ -1,15 +1,11 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "Signup, Signin, Forgot password, Terms and Conditions and Contact Us boilerplate just the UI ",
+  "description": "Sample List view",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SiddharthaChowdhury/bp-common.git"
   },
   "keywords": [
     "boilerplate",
@@ -23,12 +19,7 @@
     "contact",
     "us"
   ],
-  "author": "Austin4Silvers",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SiddharthaChowdhury/bp-common/issues"
-  },
-  "homepage": "https://github.com/SiddharthaChowdhury/bp-common#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
